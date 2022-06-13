@@ -11,12 +11,16 @@ export class ArticlesService {
     return 'This action adds a new article';
   }
 
-  findAll() {
-    return `This action returns all articles`;
+  findDrafts() {
+    return this.prisma.article.findMany({ where: { published: false } });
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} article`;
+  findAll() {
+    return this.prisma.article.findMany({ where: { published: true } });
+  }
+
+  async findOne(id: number) {
+    return this.prisma.article.findUnique({ where: { id } });
   }
 
   update(id: number, updateArticleDto: UpdateArticleDto) {
