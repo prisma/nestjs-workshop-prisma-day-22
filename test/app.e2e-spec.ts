@@ -50,8 +50,11 @@ describe('AppController (e2e)', () => {
 
     await app.init();
 
-    await prisma.article.createMany({
-      data: articlesData,
+    await prisma.article.create({
+      data: articlesData[0],
+    });
+    await prisma.article.create({
+      data: articlesData[1],
     });
   });
 
