@@ -6,6 +6,7 @@ Welcome to the code repository for the Prisma Day 2022 NestJS Workshop!
 
 - [Notion Workshop Document](http://pris.ly/day-22-nestjs)
 - [NestJS Documentation](https://docs.nestjs.com/)
+- [Workshop Recording](https://youtu.be/LMjj1_EK4y8) 
 
 
 #### Get Started
