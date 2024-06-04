@@ -36,19 +36,19 @@ Specifically, this workshop will cover:
 
 ## Lessons
 
-[0. NestJS recap](https://www.notion.so/0-NestJS-recap-2a0f98cd7c434c4f90bc4e55b99a5ea5?pvs=21)
+[0. NestJS recap](./lesson-0.md)
 
-[1. Set up Prisma, PostgreSQL and NestJS](https://www.notion.so/1-Set-up-Prisma-PostgreSQL-and-NestJS-b2b03341a7cf4df0a6f77e7107be0365?pvs=21)
+[1. Set up Prisma, PostgreSQL and NestJS](./lesson-1.md)
 
-[2. REST API - CRUD Operations](https://www.notion.so/2-REST-API-CRUD-Operations-3c434339e5d449cb88b232140947ca26?pvs=21)
+[2. REST API - CRUD Operations](./lesson-2.md)
 
-[3. Input Validation](https://www.notion.so/3-Input-Validation-5d5a98eb89f34533a13dc314440cb7cd?pvs=21)
+[3. Input Validation](./lesson-3.md)
 
-[4. Error Handling ](https://www.notion.so/4-Error-Handling-0c394e3c1e3040ca8b636f651771a18c?pvs=21)
+[4. Error Handling ](./lesson-4.md)
 
-[5. End-to-end Testing](https://www.notion.so/5-End-to-end-Testing-f23f312c79c34dfa9ffa40a073e384ec?pvs=21)
+[5. End-to-end Testing](./lesson-5.md)
 
-[6. Conclusion & Additional Resources](https://www.notion.so/6-Conclusion-Additional-Resources-664e6f20f5874f86ba51e56ecba89f6e?pvs=21) 
+[6. Conclusion & Additional Resources](./lesson-6.md) 
 
 Lessons are structured in two parts: 
 
