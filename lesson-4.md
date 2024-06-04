@@ -215,7 +215,7 @@ Execute the same `POST /articles` call again and review the error response
     
     The response is now status code `409 Conflict` and contains the exception message:
     
-    ![Screen Shot 2022-06-14 at 3.56.23 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4e5d95f-4fec-4fde-82ac-720892f60674/Screen_Shot_2022-06-14_at_3.56.23_PM.png)
+    ![Screen Shot 2022-06-14 at 3.56.23 PM.png](./images/lesson-4-1.png)
     
 
 Awesome, you are successfully handling `PrismaClient` exception for **unique** constraints. You can identify other error codes and add them to the filter. Here are some ideas:

@@ -26,7 +26,7 @@ git checkout lesson-3-begin
 
 In order to perform input validation, you will be using the [NestJS Pipes.](https://docs.nestjs.com/pipes)  A pipe is a class annotated with the `@Injectable()` decorator, which implements the `PipeTransform` interface. Pipes operate on the arguments being processed by a controller route handler. Nest interposes a pipe just before a method is invoked, and the pipe receives the arguments destined for the method and operates on them. The pipes can perform transformations or validations on the arguments, after which the route handler is invoked with any (potentially) transformed arguments.
 
-![How Pipes work (from the [NestJS docs](https://docs.nestjs.com/pipes)) ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32f3f522-5e76-4c4e-8cba-8694a61dbca1/Untitled.png)
+![How Pipes work (from the [NestJS docs](./images/lesson-3-1.png)
 
 How Pipes work (from the [NestJS docs](https://docs.nestjs.com/pipes)) 
 
@@ -122,7 +122,7 @@ Try creating the same empty article example from the beginning of this chapter, 
 
 - Test `POST /articles` endpoint with invalid data
     
-    ![Screen Shot 2022-06-14 at 1.35.48 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c8d6ebd-b090-41fa-92a6-8b07b97baa6e/Screen_Shot_2022-06-14_at_1.35.48_PM.png)
+    ![Screen Shot 2022-06-14 at 1.35.48 PM.png](./images/lesson-3-2.png)
     
 
 ### Task 3: Use `ParseIntPipe` to transform dynamic URL paths
@@ -143,7 +143,7 @@ Since `id` is defined as `string` the Swagger API also documents this argument a
 
 - Swagger documentation for `id` parameter
     
-    ![Screen Shot 2022-06-14 at 1.22.05 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/397ca61a-20cb-41b1-a1b0-dbcede13861a/Screen_Shot_2022-06-14_at_1.22.05_PM.png)
+    ![Screen Shot 2022-06-14 at 1.22.05 PM.png](./images/lesson-3-3.png)
     
 
 Instead of doing this transformation inside the route handler, you can use a NestJS pipe to achieve the same thing. NestJS has a built-in pipe for this exact use case called `ParseIntPipe`. Convert `id` to an integer and bind the `ParseIntPipe` to the controller route handlers for these three endpoints. 
